@@ -1,0 +1,58 @@
+﻿<Window x:Name="Pinata_Game" x:Class="A9_Bidwell___Pinata.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A9_Bidwell___Pinata"
+        mc:Ignorable="d"
+        Title="¡ Piñata !" Height="520" Width="800" ResizeMode="CanResizeWithGrip" Background="#FFFFD300" WindowStyle="ThreeDBorderWindow" UseLayoutRounding="True" SizeChanged="Pinata_Game_SizeChanged" KeyDown="Pinata_Game_KeyDown" Loaded="Pinata_Game_Loaded">
+    <Canvas x:Name="cvs">
+        <Canvas.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="White"/>
+                <GradientStop Color="#FF4B0707" Offset="0.662"/>
+            </LinearGradientBrush>
+        </Canvas.Background>
+        <Line x:Name="pinRope" X1 ="400" X2="400" Y2="250" Stroke="CornflowerBlue" StrokeThickness="5" Y1="-10"/>
+        <Line x:Name="bat" X1 ="400" X2="700" StrokeThickness="15" Y1="485" StrokeEndLineCap="Triangle" StrokeStartLineCap="Triangle" Y2="460">
+            <Line.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0.977"/>
+                    <GradientStop Color="#FF54D2DF"/>
+                    <GradientStop Color="#FF1031A0" Offset="0.398"/>
+                </LinearGradientBrush>
+            </Line.Stroke>
+        </Line>
+        <Path>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE2FF02" Offset="0"/>
+                    <GradientStop Color="#FFFF7700" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+            <Path.Data>
+                <EllipseGeometry x:Name="pinBody" RadiusX="35"
+        			RadiusY="35" Center="400,250"/>
+            </Path.Data>
+        </Path>
+        <StackPanel Height="200" Canvas.Left="10" Canvas.Top="10" Width="84">
+            <Label x:Name="lblScore1" Content="Score :" FontSize="14" Padding="5,5,0,5" HorizontalAlignment="Right" Width="69" Height="29" HorizontalContentAlignment="Right" Margin="0,0,0.2,0"/>
+            <Label x:Name="lblHighScore1" Content="High score :" FontSize="14" Padding="5,5,0,5" HorizontalContentAlignment="Right" HorizontalAlignment="Right" RenderTransformOrigin="1.459,1.375" Width="79" Height="29" Margin="0,0,0.2,0"/>
+            <StackPanel Margin="0,0,30.2,0" Orientation="Vertical" Height="29">
+                <Button x:Name="btnTweak" Content="¡ Tweak !" Margin="11,0,-29.4,0" Height="27" RenderTransformOrigin="0.72,0.569" BorderBrush="Black" FontSize="14" FontWeight="SemiBold" Click="btnTweak_Click">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#33F3F3F3" Offset="0.013"/>
+                            <GradientStop Color="#00000000" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Height="181" Canvas.Left="99" Width="52" Canvas.Top="10">
+            <Label x:Name="lblScoreNum" Content="0" FontWeight="Bold" FontSize="14" Padding="0,5,5,5" HorizontalAlignment="Left" RenderTransformOrigin="3.391,0.657" Width="52" Height="28"/>
+            <Label x:Name="lblHighScoreNum" Content="0" FontWeight="Bold" FontSize="14" Padding="0,5,5,5" HorizontalAlignment="Left" Width="52" Height="29"/>
+        </StackPanel>
+    </Canvas>
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\bin\Debug\A9_Bidwell - Pinata.exe.config
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\bin\Debug\A9_Bidwell - Pinata.exe
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\bin\Debug\A9_Bidwell - Pinata.pdb
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\A9_Bidwell - Pinata.csprojResolveAssemblyReference.cache
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\MainWindow.g.cs
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\App.g.cs
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\A9_Bidwell - Pinata_MarkupCompile.cache
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\A9_Bidwell - Pinata_MarkupCompile.lref
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\MainWindow.baml
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\A9_Bidwell - Pinata.g.resources
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\A9_Bidwell___Pinata.Properties.Resources.resources
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\A9_Bidwell - Pinata.csproj.GenerateResource.Cache
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\A9_Bidwell - Pinata.exe
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\A9_Bidwell - Pinata.pdb
+C:\Users\Bryce Bidwell\Google Drive\A9_Bidwell - Pinata\A9_Bidwell - Pinata\obj\Debug\A9_Bidwell___Pinata.ModifierForm.resources
